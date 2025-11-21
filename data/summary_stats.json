@@ -1,0 +1,25 @@
+{
+    "total_customers": 200,
+    "gender_distribution": {
+        "Female": 112,
+        "Male": 88
+    },
+    "age_stats": {
+        "min": 18,
+        "max": 70,
+        "mean": 38.85,
+        "median": 36.0
+    },
+    "income_stats": {
+        "min": 15,
+        "max": 137,
+        "mean": 60.56,
+        "median": 61.5
+    },
+    "spending_stats": {
+        "min": 1,
+        "max": 99,
+        "mean": 50.2,
+        "median": 50.0
+    }
+}
