@@ -24,36 +24,6 @@ Using **K-Means clustering**, we identify customer segments for targeted marketi
 - `Annual Income (k$)`: Income in thousands (15-140)
 - `Spending Score (1-100)`: Shopping behavior score
 
-## 🎯 Methodology
-
-### 1. **Data Exploration** (`1_data_exploration.py`)
-- Load and analyze dataset
-- Check for missing values/duplicates
-- Create univariate and bivariate visualizations
-- Analyze correlations
-- **Output**: 9 visualizations
-
-### 2. **Feature Scaling** (`2_feature_scaling.py`)
-- Select features for clustering (Income + Spending)
-- Apply **StandardScaler** (mean=0, std=1)
-- Visualize before/after scaling
-- **Why**: K-Means is distance-based and sensitive to scale
-- **Output**: 3 visualizations, scaled features
-
-### 3. **K-Means Clustering** (`3_kmeans_clustering.py`)
-
-#### Elbow Method
-- Test K=2 to K=10
-- Calculate **Inertia** (within-cluster sum of squares)
-- Calculate **Silhouette Score** (cluster quality)
-- Calculate **Davies-Bouldin Score** (cluster separation)
-- **Optimal K**: Determined by elbow point (typically K=5)
-
-#### Clustering
-- Apply K-Means with optimal K
-- Assign cluster labels
-- Analyze cluster centroids
-- **Output**: 4 visualizations, cluster assignments
 
 ## 📈 Results
 
